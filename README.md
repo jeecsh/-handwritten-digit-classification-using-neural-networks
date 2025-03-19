@@ -20,30 +20,6 @@ The goal of this project is to classify handwritten digits (0-9) from images. Th
 - **Matplotlib** (for data visualization)
 - **MNIST Dataset** (for training and testing)
 
-## Setup Instructions
-
-1. **Clone the Repository**:
-    ```bash
-    git clone https://github.com/your-username/handwritten-digit-recognition.git
-    ```
-
-2. **Install Dependencies**:
-    You can install the necessary Python libraries using `pip`:
-    ```bash
-    pip install numpy pandas matplotlib
-    ```
-
-3. **Download the Dataset**:
-    The dataset is loaded directly from the path `/kaggle/input/digit-recognizer/train.csv` in the code. Ensure you have the **MNIST dataset** in the appropriate directory. You can also download it from Kaggle if necessary.
-
-4. **Run the Code**:
-    Once the dependencies are installed and the dataset is in place, you can run the script directly:
-    ```bash
-    python your_script.py
-    ```
-
-## Usage
-
 ### Training the Model
 The neural network is trained using the `gradient_descent` function with a learning rate of `0.50` for `500` iterations.
 
